@@ -1,3 +1,5 @@
+//Defines a short answer question. 
+
 package edu.unca.csci201;
 
 public class ShortAnswer implements Question {
@@ -5,7 +7,6 @@ public class ShortAnswer implements Question {
 	private String q;
 	private String correctAnswer;
 
-	//constructor
 	public ShortAnswer (String question, String answer) {
 		this.q = question;
 		this.correctAnswer = answer;

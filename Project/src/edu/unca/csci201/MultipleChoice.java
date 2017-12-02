@@ -1,3 +1,5 @@
+//Defines a multiple choice question with one question and four answer choices the user has to answer from.
+
 package edu.unca.csci201;
 
 public class MultipleChoice implements Question {
@@ -9,7 +11,6 @@ public class MultipleChoice implements Question {
 	//correct answer
 	private String correctAnswer;
 
-	// constructor
 	public MultipleChoice(String question, String A, String B, String C, String D, String answer) {
 		this.q = question;
 		this.a = A;

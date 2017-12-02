@@ -1,11 +1,12 @@
+//Defines a short answer question
+
 package edu.unca.csci201;
 
 public class TrueFalse implements Question {
 
-	String q;
-	String correctAnswer;
+	private String q;
+	private String correctAnswer;
 
-	//constructor
 	public TrueFalse (String question, String answer) {
 		this.q = question;
 		this.correctAnswer = answer;

@@ -1,3 +1,14 @@
+/*
+
+@author Brendan O'Dowd
+@Computer Science 201
+@Final Project
+@12/5/2017
+
+This project defines a quiz system in which there are three different types of questions.  The user types in there answers and at the end
+is given a score out of 25. 
+
+ */
 package edu.unca.csci201;
 
 public class QuizTime {
@@ -13,7 +24,7 @@ public class QuizTime {
 		ShortAnswer question6 = new ShortAnswer("What is the name of the singer of 'The A Team' ?", "Ed Sheeran");
 
 		MultipleChoice question7 = new MultipleChoice("What nationality is Lionel Messi?", "English", "Irish", "Brazilian", "Argentinian", "D");
-		TrueFalse question8 = new TrueFalse("On average, there are 200 tiny seeds on every strawberry.", "True");
+		TrueFalse question8 = new TrueFalse("Leeds United > Real Madrid.", "True");
 		ShortAnswer question9 = new ShortAnswer("Name the seventh planet from the sun.", "Uranus");
 
 		MultipleChoice question10 = new MultipleChoice("On the 2011 Czech Republic census, 15,070 people listed their religion as ___", "Harry Potter", "Holy Roman Empire", "Jedi", "Lady Gaga", "C");
@@ -29,12 +40,12 @@ public class QuizTime {
 		ShortAnswer question18 = new ShortAnswer("What is the national anthem of USA?", "Star Spangled Banner");
 
 		MultipleChoice question19 = new MultipleChoice("George Washington insisted his Continental Army be permitted a quart of ____ as part of their daily rations.", "Melted Chocolate", "Gravy", "Goat Milk", "Beer", "D");
-		TrueFalse question20 = new TrueFalse("Peanuts can be used to make dynamite.", "True");
+		TrueFalse question20 = new TrueFalse("The average gatorade bottle is more expensive than powerade.", "True");
 		ShortAnswer question21 = new ShortAnswer("What city was I born in?", "Chicago");
 
 		MultipleChoice question22 = new MultipleChoice("Deipnophobia is the fear of ________.", "Dinner Conversations", "Police", "Cheese", "Women", "A");
 		TrueFalse question23 = new TrueFalse("A watermelon is about 55% water by weight.", "False");
-		ShortAnswer question24 = new ShortAnswer("How many sides in a triangle?", "Three");
+		ShortAnswer question24 = new ShortAnswer("How many sides in a triangle (word answer)?", "Three");
 		MultipleChoice question25 = new MultipleChoice("What is the greatest football team in the world?", "Chelsea", "MK Dons", "LEEDS UNITED", "Man United", "C");
 
 		Quiz quiz = new Quiz();
